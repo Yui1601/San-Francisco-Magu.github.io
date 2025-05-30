@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Encuesta - San Francisco Magu</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header>
+        <h1>Encuesta Comunitaria</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Volver al Inicio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <form id="encuestaForm">
+                <p><strong>1. ¿Qué tan satisfecho estás con los servicios de la página?</strong></p>
+                <label><input type="radio" name="satisfaccion" value="muy_satisfecho" required /> Muy satisfecho</label><br />
+                <label><input type="radio" name="satisfaccion" value="satisfecho" /> Satisfecho</label><br />
+                <label><input type="radio" name="satisfaccion" value="insatisfecho" /> Insatisfecho</label><br /><br />
+
+                <p><strong>2. ¿Qué aspecto de la pagina mejorarías?</strong></p>
+                <input type="text" name="mejora" placeholder="Escribe tu respuesta" /><br /><br />
+                <button type="submit">Enviar respuestas</button>
+            </form>
+        </section>
+        </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
